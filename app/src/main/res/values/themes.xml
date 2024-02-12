@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DogVision" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/green_normal</item>
+        <item name="colorPrimaryVariant">@color/green_dark</item>
+
+    </style>
+
+    <style name="BottomNavigation">
+
+        <item name="android:background">@color/green_dark</item>
+        <item name="itemIconTint">@color/green_light_2</item>
+        <item name="itemTextColor">@color/green_light_2</item>
+
+    </style>
+
+    <style name="Theme.DogVision" parent="Base.Theme.DogVision" />
+</resources>
